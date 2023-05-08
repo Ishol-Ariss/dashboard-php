@@ -1,0 +1,104 @@
+body {
+   background-color: rgb(231, 255, 231);
+}
+
+header {
+   margin-top: 10px;
+   margin-bottom: 30px;
+   border-bottom: solid;
+}
+
+#h-user{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   max-width: 5%;
+   margin-left: 3%;
+}
+
+#h-dropdown{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+
+#barraLateral {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#barraLateral > *{
+   margin-bottom: 20px;
+}
+
+
+#barraLateral ul{
+width: 90%;
+}
+
+#barraLateral .lista {
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   align-items: center;
+   background-color: lightgray;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   border-radius: 10px;
+}
+
+
+#barraLateral ul li:hover{
+   cursor: pointer;
+   background-color: lightgray;
+}
+
+#conteudo > * {
+   margin-bottom: 50px;
+}  
+
+#conteudo .col-3 .card{
+   align-items: center;
+}
+
+.card-title {
+   font-size: 30px;
+}
+
+.card:hover {
+   cursor: pointer;
+   background-color: lightgray;
+}
+
+#tableCliente {
+   width: 100%;
+   background-color: white;
+   border: solid;
+}
+
+#tableCliente thead {
+   border-bottom: solid 0.5px;
+}
+#tableCliente td {
+   padding-left: 10px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+}
+#tableCliente th{
+   padding-left: 10px;
+   padding-top: 2px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+}
+
+footer {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   bottom: 30px;
+}
